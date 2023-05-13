@@ -7,7 +7,7 @@ function Footer() {
       <div class="flex flex-wrap md:text-left text-center order-first">
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
           <img className='logo' src='logo.png' width="100px"/>
-          <p className='pr-5'>Generate outside the box thinking with the possibility to targtet the low.</p>
+          <p className='pr-5 text-start'>Generate outside the box thinking with the possibility to targtet the low.</p>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Resources</h2>
@@ -43,11 +43,11 @@ function Footer() {
             </li>
           </nav>
         </div>
-        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4 text-start">
           <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
             <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
-            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Get Email Notifications</h2>
-              <label for="footer-field" class="leading-7 text-sm text-gray-400">Generate outside the box thinking with the possibility to targtet the low</label>
+            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3 text-start">Get Email Notifications</h2>
+              <label for="footer-field" class="leading-7 text-sm text-gray-400 text-start">Generate outside the box thinking with the possibility to targtet the low</label>
               <input type="text" id="footer-field" name="footer-field" class="w-full bg-gray-800 rounded border bg-opacity-40 border-gray-700 focus:bg-transparent focus:ring-2 focus:ring-indigo-900 focus:border-indigo-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
             </div>
             <button class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Button</button>

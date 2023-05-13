@@ -4,9 +4,6 @@ body{
     box-sizing: border-box;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    max-width: 1640px !important;
-    margin: auto !important;
-
 }
 
 
@@ -20,6 +17,11 @@ body{
     --links: #95AFBA;
     --footer-bg: #151B28;
 
+}
+
+.max-w{
+    max-width: 1640px !important;
+    margin: auto !important;
 }
 
 .light-bg{
@@ -102,12 +104,12 @@ p{
     color: #ffffff;
     outline: none;
     border: none;
-    padding: 10px 30px;
+    padding: 8px 30px;
     border-radius: 0 10px 10px  0;
 }
 
 .show-input{
-    padding: 20px 30px;
+    padding: 15px 30px;
     color: var(--highlight);
     background: linear-gradient(180deg, #EDEFF5 0%, #FFFFFF 74.9%);
     border-radius: 10px 0 0 10px;
@@ -134,8 +136,10 @@ p{
 }
 
 .bottom-shadow{
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.1);
 }
+
+
 
 .p-outline{
     border: 1.5px solid var(--primary-color)

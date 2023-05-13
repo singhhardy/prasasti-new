@@ -18,40 +18,40 @@ function Home() {
     <div className='box'>
     <div className='box-container'>
       <div class="p-4 ">
-        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center sm:text-left">
           <h1><i class=" p-5 fa fa-phone text-icon" ></i></h1>
           <div class="flex-grow sm:pl-8">
             <h1 class="title-font font-medium text-lg text-gray-900">Alper Kamu</h1>
             <br/>
             <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span class="inline-flex">
-            <a href='#' className='text-blue u-line'>Learn More <i className='fa fa-arrow-right'></i></a>
+            <a href='#' className='text-blue'>Learn More <i className='fa fa-arrow-right'></i></a>
             </span>
           </div>
         </div>
       </div>
       <div class="p-4 ">
-        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center sm:text-left">
         <h1><i class=" p-5 fa fa-phone text-icon" ></i></h1>
           <div class="flex-grow sm:pl-8">
             <h1 class="title-font font-medium text-lg text-gray-900">Atticus Finch</h1>
             <br/>
             <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span class="inline-flex">
-            <a href='#' className='text-blue u-line'>Learn More <i className='fa fa-arrow-right'></i></a>
+            <a href='#' className='text-blue '>Learn More <i className='fa fa-arrow-right'></i></a>
             </span>
           </div>
         </div>
       </div>
       <div class="p-4 ">
-        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center sm:text-left">
         <h1><i class=" p-5 fa fa-phone text-icon" ></i></h1>
           <div class="flex-grow sm:pl-8">
             <h1 class="title-font font-medium text-lg text-gray-900">Henry Letham</h1>
             <br/>
             <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span class="inline-flex">
-            <a href='#' className='text-blue u-line'>Learn More <i className='fa fa-arrow-right'></i></a>
+            <a href='#' className='text-blue'>Learn More <i className='fa fa-arrow-right'></i></a>
             </span>
           </div>
         </div>
@@ -66,8 +66,8 @@ function Home() {
   </div>
 </section>
 
-    <section className='mx-5 my-5'>
-      <div className=' px-5 light-gradient-bg p-4 rounded'>
+    <section className='mx-5 my-5 max-w  p-5'>
+      <div className=' px-5 light-gradient-bg p-4 rounded bottom-shadow'>
         <div className='box'>
            <div className='box-container p-5 '>
            <h2 className='p-heading'>Web3 Wallets integration <br/> and Rewards</h2>
@@ -93,34 +93,41 @@ function Home() {
 
     {/* PRASASTI PRODUCTS */}
 
-    <div className='container p-5'>
-      <h1 className='p-heading text-center'>Meet Our Products</h1>
-      <br/>
-      <p className='text-center'>Our Products work Togather seamlessly to <br/> form talent science. start with one or more. </p>
-      <img className='sideimg' src='sideimg.png' />
-      <div className='box py-5 my-5'>
-        <div className='box-container'>
-          <img src='goalmanagement.png' />
-        </div>
-        <div className='box-container'>
-        <p className='badge p-2 primary-badge '><i class="fa fa-bar"></i>College</p>
-              <br/>
-              <h3 className='p-heading'> Prasasti for Colleges</h3>
-              <div className='bar'></div>
-              <br />
-              <p className='fs-3'>Issue Digital Badges to Certificates to Students</p>
-              <div className='flex'>
-              <h5 className='p-heading-2 fs-5'><span className='primary-dot'>.</span>  Daily Track</h5>
-              <h4 className='p-heading-2 mx-5 fs-5'><span className='primary-dot px-3'>.</span>  Road Map</h4>
-              </div>
-              <br/>
-              <button className='btn third-btn rounded'>Learn More</button>
 
-        </div>
-      </div>
-      <div className='box py-5 my-5'>
-        <div className='box-container'>
-        <p className='badge p-2 secondary-badge '><i class="fa fa-bar"></i>Schools</p>
+      <div class="container px-5 py-24 mx-auto mx-5">
+        <h1 class="p-heading text-center">Meet Our Products</h1>
+        <br/>
+        <p class="text-center">Our Products work Together seamlessly to <br/> form talent science. Start with one or more.</p>
+        <img class="sideimg" src="sideimg.png" />
+
+        <section class="text-gray-600 body-font overflow-hidden">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-4/5 mx-auto flex flex-wrap">
+              <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="goalmanagement.png" />
+              <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+              <p className='badge p-2 primary-badge '><i class="fa fa-bar"></i>College</p>
+                      <br/>
+                      <h3 className='p-heading'> Prasasti for Colleges</h3>
+                      <div className='bar'></div>
+                      <br />
+                      <p className='fs-3'>Issue Digital Badges to Certificates to Students</p>
+                      <div className='flex'>
+                      <h5 className='p-heading-2 fs-5'><span className='primary-dot'>.</span>  Daily Track</h5>
+                      <h4 className='p-heading-2 mx-5 fs-5'><span className='primary-dot px-3'>.</span>  Road Map</h4>
+                      </div>
+                      <br/>
+                      <button className='btn third-btn rounded'>Learn More</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="text-gray-600 body-font overflow-hidden">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-4/5 mx-auto flex flex-wrap">
+              <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+              <p className='badge p-2 secondary-badge '><i class="fa fa-bar"></i>Schools</p>
               <br/>
               <h3 className='p-heading'> Prasasti for Schools</h3>
               <div className='bar'></div>
@@ -132,20 +139,20 @@ function Home() {
               </div>
               <br/>
               <button className='btn third-btn rounded'>Learn More</button>
-        </div>
-        <div className='box-container'>
-          <img src='schools.png' />
-        </div>
+              </div>
+              <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="schools.png" />
+            </div>
+          </div>
+        </section>
 
-      </div>
-      <div className='box py-5 my-5'>
-        <div className='box-container'>
-          <img src='goalmanagement.png' />
-        </div>
-        <div className='box-container'>
-        <p className='badge p-2 primary-badge '><i class="fa fa-bar"></i>College</p>
+        <section class="text-gray-600 body-font overflow-hidden">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-4/5 mx-auto flex flex-wrap">
+              <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="goalmanagement.png" />
+              <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+              <p className='badge p-2 primary-badge '><i class="fa fa-bar"></i>College</p>
               <br/>
-              <h3 className='p-heading'>Hackathon Organizers and Training Companies</h3>
+              <h3 className='p-heading'>Hackathon Organizers and <br/> Training Companies</h3>
               <div className='bar'></div>
               <br />
               <p className='fs-3'>Make your Hackathon more impactful for the participants. </p>
@@ -155,12 +162,15 @@ function Home() {
               </div>
               <br/>
               <button className='btn third-btn rounded'>Learn More</button>
-        </div>
-      </div>
-    </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    <section className='mx-5 my-5'>
-      <div className=' px-5 light-gradient-bg p-4 rounded'>
+      </div> 
+
+    <section className='mx-5 my-5 max-w p-5'>
+      <div className=' px-5 light-gradient-bg p-4 rounded bottom-shadow'>
       <div className='container text-center'>
       <h2 className='p-heading'>Talent Search for Employers using Prasasti Ecosystems.</h2>
            <br/>
@@ -193,14 +203,14 @@ function Home() {
       <p class="mb-8 leading-relaxed text-start">To get latest news and notifications regarding Prasasti  Register with US. Enter your email and click the Register with us button to stay updated. </p>
       <div class="flex justify-center">
       <input className="show-input outline-none" placeholder="Enter Your Email" />
-        <button class="primary-btn show-btn">Button</button>
+        <button class="primary-btn show-btn">Register with us</button>
       </div>
       <br/>
-      <p class="mb-8 leading-relaxed">Everyone gets something special. Sign up to be everyone:p.</p>
+      <p class="mb-8 leading-relaxed">Everyone gets something special. Sign up to be everyone.</p>
 
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="heroimg1.png" />
+      <img class="object-cover object-center rounded" alt="hero" src="register.jpg" />
     </div>
   </div>
   <div className="hero-bg"></div>

@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div>
-      <div className='container text-center p-5 container-height light-bg'>
+      <div className=' text-center p-5 container-height light-bg'>
       <div className='pt-5 mt-5'>
       <p className='text-center text-blue pt-5 mt-5'>About Us</p>
         <h1 className='p-heading text-center'>How we make a difference</h1>
@@ -14,7 +14,7 @@ function About() {
       {/* About Body */}
 
       <section class="text-gray-600 body-font mx-5 py-5">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="max-w px-5 py-24 mx-auto">
           <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 p-heading">More About Prasasti</h1>
             <div class="flex mt-6 justify-center">

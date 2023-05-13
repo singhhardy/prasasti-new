@@ -173,6 +173,9 @@ Drives Visibility and Demand for Your Certification Programs</p>
 
     <section class="text-gray-600 body-font mx-5 px-5">
       <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img class="object-cover object-center rounded" alt="hero" src="solution1.jpg" />
+        </div>
         <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center p-5">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">HACKATHON ORGANISERS</h1>
           <p class="mb-8 leading-relaxed">Quickly Generate Certificates to Hackathon Winners
@@ -183,9 +186,6 @@ Helps Job Seeking Participants to Get Jobs Easily </p>
           <div class="flex w-full md:justify-start justify-center items-end">
           <button class=" text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg text-start">Start now <i className='fa fa-arrow-right'></i></button>
           </div>
-        </div>
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-          <img class="object-cover object-center rounded" alt="hero" src="solution1.jpg" />
         </div>
       </div>
     </section>
@@ -210,14 +210,14 @@ Saves Time as no need to Re-Issue Lost Certificates.
 
     {/* Reviews */}
 
-    <div className='container text-center p-5 container-height light-bg'>
+    <div className=' text-center p-5 container-height light-bg -mb-5'>
       <div className='pt-5 mt-5'>
         <h1 className='p-heading text-center'>TALENT ACQUISITION FOR EMPLOYERS</h1>
       </div>
 
       <div>
       <section class="text-gray-600 body-font">
-          <div class="container px-5 py-24 mx-auto">
+          <div class=" px-5 py-24 mx-auto">
             <div class="flex flex-wrap -m-4">
               <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
                 <div className='flex items-center justify-center stars py-5'>
@@ -225,7 +225,7 @@ Saves Time as no need to Re-Issue Lost Certificates.
                 <i className='fa fa-star gold text-xl'></i>
                 <i className='fa fa-star gold text-xl'></i>
                 <i className='fa fa-star gold text-xl'></i>
-                <i className='fa fa-star text-xl'></i>
+                <i className='fa fa-star gold text-xl'></i>
                 </div>
                 <div class="h-full text-center">
                   <h2 class="text-gray-900 font-medium title-font tracking-wider text-l">Gain Access to Best Talent</h2>
@@ -237,7 +237,7 @@ Saves Time as no need to Re-Issue Lost Certificates.
                 <i className='fa fa-star gold text-xl'></i>
                 <i className='fa fa-star gold text-xl'></i>
                 <i className='fa fa-star gold text-xl'></i>
-                <i className='fa fa-star text-xl'></i>
+                <i className='fa fa-star gold text-xl'></i>
                 </div>
                 <div class="h-full text-center">
                   <h2 class="text-gray-900 font-medium title-font tracking-wider text-l">Source and Screen Candidates with Verified Skills</h2>
@@ -249,7 +249,7 @@ Saves Time as no need to Re-Issue Lost Certificates.
                 <i className='fa fa-star gold text-xl'></i>
                 <i className='fa fa-star gold text-xl'></i>
                 <i className='fa fa-star gold text-xl'></i>
-                <i className='fa fa-star text-xl'></i>
+                <i className='fa fa-star gold text-xl'></i>
                 </div>
                 <div class="h-full text-center">
                   <h2 class="text-gray-900 font-medium title-font tracking-wider text-l">Easily Verify the Candidate Skills using Blockchain Verification Link</h2>
