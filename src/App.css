@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&family=Teko&display=swap');
 
 body{
-    max-width: 1640px;
-    margin: auto;
     box-sizing: border-box;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    max-width: 1640px !important;
+    margin: auto !important;
+
 }
+
 
 *{
     --primary-color:  #2897E8;
