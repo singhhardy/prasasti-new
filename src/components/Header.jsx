@@ -49,17 +49,22 @@ function Header() {
         <div className={`nav-menu container-bg ${isNavOpen ? "nav-active" : ""}`}>
           <nav className="flex flex-col text-center">
             <a className="py-5 text-3xl" href="/achievements">
-              Achievements
+              Home
             </a>
             <a className="py-5 text-3xl" href="/about-us">
-              About Us
+              Achievements
             </a>
             <a className="py-5 text-3xl" href="/">
-              Home
+              About Us
             </a>
             <a className="py-5 text-3xl" href="/solutions">
               Solutions
             </a>
+            
+            <a className="py-5 text-3xl" href="/contact-us">
+              Contact Us
+            </a>
+            
           </nav>
         </div>
       </header>
