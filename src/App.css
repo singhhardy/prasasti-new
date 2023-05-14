@@ -341,7 +341,7 @@ p{
         /* hamburger menu */
 
         .nav-links{
-            display: none;
+            display: none !important;
         }
     
         .hamburger{
