@@ -3,10 +3,9 @@ import ".././paging/style.css";
 
 function Header() {
 
-  var nav_menu = document.querySelector('.nav-menu')
-  var hamburger = document.querySelector('.hamburger')
+  const nav_menu = document.querySelector('.nav-menu')
 
-  const handleclick = () => {
+  const navtoggle = () => {
     nav_menu.classList.toggle('nav-active')
   }
 
@@ -24,16 +23,16 @@ function Header() {
           <a className="mr-5 hover:text-gray-900 px-5" href="/solutions">Solutions</a>
           <a href="/contact-us" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg py-2">Contact</a>  
         </nav>
-        <div onClick={handleclick} className="hamburger">
+        <div onClick={navtoggle} className="hamburger">
         <i class="fa fa-bars text-4xl"></i>
         </div>
         </div>
 
         <div  className="nav-menu container-bg">
         <nav className="flex flex-col text-center">
-          <a className="py-5 text-3xl" href="/">Home</a>
           <a className="py-5 text-3xl" href="/achievements">Achievements</a>
           <a className="py-5 text-3xl" href="/about-us">About Us</a>
+          <a className="py-5 text-3xl" href="/">Home</a>
           <a className="py-5 text-3xl" href="/solutions">Solutions</a>
         </nav>
         </div>
