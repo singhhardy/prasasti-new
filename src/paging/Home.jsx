@@ -201,7 +201,7 @@ function Home() {
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 p-heading">Register With Us
       </h1>
       <p class="mb-8 leading-relaxed text-start">To get latest news and notifications regarding Prasasti  Register with US. Enter your email and click the Register with us button to stay updated. </p>
-      <div class="flex justify-center">
+      <div class="flex justify-center show-section">
       <input className="show-input outline-none bottom-shadow" placeholder="Enter Your Email" />
         <button class="primary-btn show-btn bottom-shadow">Register with us</button>
       </div>
