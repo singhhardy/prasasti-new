@@ -312,12 +312,13 @@ p{
     /* hamburger menu */
 
     .nav-links{
-        display: none;
+        display: none !important;
     }
 
     .hamburger{
         display: block;
     }
+
 
     /* ends  here */
 
