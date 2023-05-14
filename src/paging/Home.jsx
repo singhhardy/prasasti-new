@@ -102,7 +102,7 @@ function Home() {
 
         <section class="text-gray-600 body-font overflow-hidden">
           <div class="container px-5 py-24 mx-auto">
-            <div class="lg:w-4/5 mx-auto flex flex-wrap">
+            <div class=" mx-auto flex flex-wrap">
               <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="goalmanagement.png" />
               <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <p className='badge p-2 primary-badge '><i class="fa fa-bar"></i>College</p>
@@ -147,7 +147,7 @@ function Home() {
 
         <section class="text-gray-600 body-font overflow-hidden">
           <div class="container px-5 py-24 mx-auto">
-            <div class="lg:w-4/5 mx-auto flex flex-wrap">
+            <div class=" mx-auto flex flex-wrap">
               <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="goalmanagement.png" />
               <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <p className='badge p-2 primary-badge '><i class="fa fa-bar"></i>College</p>
@@ -202,8 +202,8 @@ function Home() {
       </h1>
       <p class="mb-8 leading-relaxed text-start">To get latest news and notifications regarding Prasasti  Register with US. Enter your email and click the Register with us button to stay updated. </p>
       <div class="flex justify-center">
-      <input className="show-input outline-none" placeholder="Enter Your Email" />
-        <button class="primary-btn show-btn">Register with us</button>
+      <input className="show-input outline-none bottom-shadow" placeholder="Enter Your Email" />
+        <button class="primary-btn show-btn bottom-shadow">Register with us</button>
       </div>
       <br/>
       <p class="mb-8 leading-relaxed">Everyone gets something special. Sign up to be everyone.</p>

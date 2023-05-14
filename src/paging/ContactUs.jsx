@@ -9,7 +9,7 @@ function ContactUs() {
       <div className=' text-center p-5 container-height light-bg'>
       <div className='pt-5 mt-5'>
       <p className='text-center text-blue pt-5 mt-5'>Contact</p>
-        <h1 className='p-heading text-center'>Everyone gets something special. <br/> Sign up to be everyone. :P</h1>
+        <h1 className='p-heading text-center'>Fill out the form to be <br/> contacted by a member <br/> of the prasasti team.</h1>
       </div>
       </div>
 
@@ -19,9 +19,9 @@ function ContactUs() {
   <div class="flex flex-wrap -mx-3 mb-6"> 
   <div class="w-full md:w-1/2 px-3">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-        Email Address
+        First Name
       </label>
-      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="First Name" />
+      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Enter First Name" />
     </div>
     <div class="w-full md:w-1/2 px-3">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
@@ -33,9 +33,9 @@ function ContactUs() {
   <div class="flex flex-wrap -mx-3 mb-6">
   <div class="w-full px-3">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-        Email Address
+        Subject
       </label>
-      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Email Address" />
+      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Subject" />
     </div>
   </div>
   <div class="flex flex-wrap -mx-3 mb-2">

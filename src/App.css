@@ -95,7 +95,7 @@ p{
 }
 
 .primary-btn:hover{
-    background: var(--primary-color);
+    background: #6366F1;
     transition: 0.3s ease;
 }
 
@@ -109,7 +109,7 @@ p{
 }
 
 .show-input{
-    padding: 15px 30px;
+    padding: 12px 30px;
     color: var(--highlight);
     background: linear-gradient(180deg, #EDEFF5 0%, #FFFFFF 74.9%);
     border-radius: 10px 0 0 10px;
