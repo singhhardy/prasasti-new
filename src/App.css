@@ -262,7 +262,18 @@ p{
 /* nav menu respnsive hamburger */
 
 .nav-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     opacity: 0;
+    transition: 0.3s ease-in-out;
+    z-index: 100;
 }
 
 .hamburger{
@@ -294,6 +305,7 @@ p{
     transition: 0.3s ease-in-out;
     z-index: 100;
 }
+
 
 @media(max-width: 1000px){
 
